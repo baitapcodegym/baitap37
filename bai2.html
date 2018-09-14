@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai2</title>
+</head>
+<body>
+    <script>
+        let i
+        do{
+            let nhietdo = prompt('nhập nhiệt độ');
+            if (nhietdo>100){
+                alert('nhiệt độ quá cao');
+                i=false;
+            } else if (nhietdo<20){
+                alert('nhiệt độ quá lạnh');
+                i=false;
+            } else {
+                alert('nhiệt độ dẽ chịu');
+                i=true;
+            }
+        }while (i ==false);
+    </script>
+</body>
+</html>

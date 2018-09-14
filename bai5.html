@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 5</title>
+</head>
+<body>
+<script>
+    let a = 0;
+    let b = 1;
+    let tong = 0
+    document.write(a + '<br>')
+    for(i=0; i<20;i++){
+        tong = a + b;
+
+        document.write(b + '<br>')
+        let bcu = b;
+        b = a + b;
+        a = bcu;
+    }
+    document.write(tong)
+</script>
+</body>
+</html>
